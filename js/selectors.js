@@ -12,8 +12,7 @@ function divSelector() {
 }
 
 function lastImageSelector() {
-  let last = $('#pic-list li')
-  return $('#pic-list li')[last.length - 1]
+  return $('img:last')
 }
 
 function firstListItem() {
