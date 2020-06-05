@@ -12,7 +12,7 @@ function divSelector() {
 }
 
 function lastImageSelector() {
-  return $('#pic-list li')
+  return $('#pic-list li:last')
 }
 
 function firstListItem() {
